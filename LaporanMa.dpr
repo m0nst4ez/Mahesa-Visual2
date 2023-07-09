@@ -9,7 +9,8 @@ uses
   Ortu in 'Ortu.pas' {FormOrtu},
   Poin in 'Poin.pas' {FormPoin},
   WaliKelas in 'WaliKelas.pas' {FormWakel},
-  Hub in 'Hub.pas' {FormHub};
+  Hub in 'Hub.pas' {FormHub},
+  Catatan in 'Catatan.pas' {FormCatatan};
 
 {$R *.res}
 
@@ -23,5 +24,6 @@ begin
   Application.CreateForm(TFormPoin, FormPoin);
   Application.CreateForm(TFormWakel, FormWakel);
   Application.CreateForm(TFormHub, FormHub);
+  Application.CreateForm(TFormCatatan, FormCatatan);
   Application.Run;
 end.
