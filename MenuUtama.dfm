@@ -1,8 +1,8 @@
 object FormMenuUtama: TFormMenuUtama
   Left = 192
-  Top = 152
+  Top = 162
   Width = 1044
-  Height = 540
+  Height = 530
   Caption = 'MENU UTAMA'
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
@@ -25,6 +25,23 @@ object FormMenuUtama: TFormMenuUtama
       end
       object Kelas1: TMenuItem
         Caption = 'Kelas'
+        OnClick = Kelas1Click
+      end
+      object User3: TMenuItem
+        Caption = 'Siswa'
+        OnClick = User3Click
+      end
+      object Ortu1: TMenuItem
+        Caption = 'Ortu'
+        OnClick = Ortu1Click
+      end
+      object Poin1: TMenuItem
+        Caption = 'Poin'
+        OnClick = Poin1Click
+      end
+      object WaliKelas1: TMenuItem
+        Caption = 'Wali Kelas'
+        OnClick = WaliKelas1Click
       end
     end
   end
