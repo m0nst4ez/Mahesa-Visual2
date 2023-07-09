@@ -43,6 +43,10 @@ object FormMenuUtama: TFormMenuUtama
         Caption = 'Wali Kelas'
         OnClick = WaliKelas1Click
       end
+      object Hubungan1: TMenuItem
+        Caption = 'Hubungan'
+        OnClick = Hubungan1Click
+      end
     end
   end
 end

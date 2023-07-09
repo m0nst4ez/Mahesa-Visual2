@@ -16,12 +16,14 @@ type
     Ortu1: TMenuItem;
     Poin1: TMenuItem;
     WaliKelas1: TMenuItem;
+    Hubungan1: TMenuItem;
     procedure User2Click(Sender: TObject);
     procedure Kelas1Click(Sender: TObject);
     procedure User3Click(Sender: TObject);
     procedure Ortu1Click(Sender: TObject);
     procedure Poin1Click(Sender: TObject);
     procedure WaliKelas1Click(Sender: TObject);
+    procedure Hubungan1Click(Sender: TObject);
   private
     { Private declarations }
   public
@@ -33,7 +35,7 @@ var
 
 implementation
 
-uses User, Kelas, Siswa, Ortu, Poin, WaliKelas;
+uses User, Kelas, Siswa, Ortu, Poin, WaliKelas, Hub;
 {$R *.dfm}
 
 procedure TFormMenuUtama.User2Click(Sender: TObject);
@@ -64,6 +66,11 @@ end;
 procedure TFormMenuUtama.WaliKelas1Click(Sender: TObject);
 begin
 FormWakel.ShowModal;
+end;
+
+procedure TFormMenuUtama.Hubungan1Click(Sender: TObject);
+begin
+FormHub.ShowModal;
 end;
 
 end.

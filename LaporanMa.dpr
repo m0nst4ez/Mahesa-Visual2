@@ -8,7 +8,8 @@ uses
   Siswa in 'Siswa.pas' {FormSiswa},
   Ortu in 'Ortu.pas' {FormOrtu},
   Poin in 'Poin.pas' {FormPoin},
-  WaliKelas in 'WaliKelas.pas' {FormWakel};
+  WaliKelas in 'WaliKelas.pas' {FormWakel},
+  Hub in 'Hub.pas' {FormHub};
 
 {$R *.res}
 
@@ -21,5 +22,6 @@ begin
   Application.CreateForm(TFormOrtu, FormOrtu);
   Application.CreateForm(TFormPoin, FormPoin);
   Application.CreateForm(TFormWakel, FormWakel);
+  Application.CreateForm(TFormHub, FormHub);
   Application.Run;
 end.
